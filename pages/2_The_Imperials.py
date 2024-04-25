@@ -6,7 +6,7 @@ class NorthernFrench(FactionMultiApp):
     def __init__(self):
         super().__init__(title="The Imperials", sidebar="expanded")
         super().run(["Overview", "Boniface I of Montferrat",
-                     "Oberto II of Biandrate", "Berthold II von Katzenelnbogen"], 393)
+                     "Oberto II of Biandrate", "Berthold II von Katzenelnbogen"], 430)
 
     def get_option(self, option):
         match option:
